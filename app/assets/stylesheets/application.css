@@ -1,0 +1,185 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ header {
+   position: fixed;
+ }
+
+ body {
+   max-width: auto;
+   margin: auto;
+   text-align: center;
+   font-family: "Segoe UI";
+ }
+
+ div.drink {
+   max-width: 400px;
+   max-height: 390px;
+   margin: auto;
+   box-shadow: 10px 10px 10px lightgrey;
+   border-radius: 25px;
+   overflow: scroll;
+ }
+
+ div.scroll {
+  overflow: scroll;
+  max-height: 390px;
+  max-width: 1900px;
+  margin: auto;
+ }
+
+ #submit {
+   border-bottom: 2px dotted lightgrey;
+   max-width: 400px;
+   margin: auto;
+ }
+
+ ::-webkit-scrollbar {
+ display: none;
+ }
+
+ #drinkshow {
+   margin: auto;
+   width: 200px;
+   text-align: left;
+ }
+
+ div.card {
+   max-width: 300px;
+   max-height: 400px;
+   margin: auto;
+   margin-top: 25px;
+   box-shadow: 10px 10px 10px lightgrey;
+   border-radius: 25px;
+ }
+
+ img {
+ max-width: 400px;
+ max-height: 200px;
+ border-radius: 25px;
+ }
+
+ img.star {
+   height: 25px;
+ }
+
+ input#search, #username, #password,
+ #user_username, #user_password, #user_password_confirmation {
+   width: 250px;
+   height: 25px;
+   background-color: white;
+   border: 1px solid lightgrey;
+   box-shadow: 2px 2px 2px lightgrey;
+   text-align: center;
+   border-radius: 10px;
+ }
+
+ input {
+   width: 100px;
+   height: 25px;
+   margin: 3px;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+ }
+
+ button {
+   border: none;
+   background-color: white;
+   border-radius: 10px;
+ }
+
+ #fave {
+   width: 200px;
+   height: 25px;
+   background-color: white;
+   border: 1px solid lightgrey;
+   text-align: center;
+   border-radius: 10px;
+   margin: auto;
+ }
+
+ h3 {
+   display: inline;
+   padding: 3px;
+   border-radius: 10px;
+ }
+
+ h1, h2 {
+   display: inline;
+ }
+
+ .navbar {
+ overflow: hidden;
+ font-family: Arial;
+ margin: 10px;
+ }
+
+ .navbar a {
+ float: left;
+ font-size: 16px;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ }
+
+ .dropdown {
+ float: left;
+ overflow: hidden;
+ background-color: #09d2fe;
+ border-radius: 10px;
+ }
+
+ .dropdown .dropbtn {
+ font-size: 16px;
+ border: none;
+ outline: none;
+ padding: 14px 16px;
+ background-color: inherit;
+ font-family: inherit;
+ margin: 0;
+ }
+
+ .navbar a:hover, .dropdown:hover .dropbtn {
+ background-color: #ff06e8;
+ }
+
+ .dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #f9f9f9;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+ }
+
+ .dropdown-content a {
+ float: none;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+ }
+
+ .dropdown-content a:hover {
+ background-color: #09d2fe;
+ }
+
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }

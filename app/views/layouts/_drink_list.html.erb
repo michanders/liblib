@@ -1,0 +1,15 @@
+<%= render 'layouts/form' %><br>
+<div class="scroll">
+  <% if @drink["drinks"] %>
+    <% @drink["drinks"].each do |obj| %>
+      <div class="card">
+        <h3><%= obj["strDrink"] %></h3><br>
+        <form action='/details'>
+            <button type="submit" title="<%=obj["strDrink"]%> Ingredients" name='details' value="<%=obj["idDrink"]%>"><img class="img" src="<%=obj["strDrinkThumb"]%>" ></button><br>
+        </form><br>
+      </div><br>
+    <% end %>
+  <% else %>
+    <h3>Libation not found.</h3><br><br>
+  <% end %>
+</div>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Liblib</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <header>
+      <%= render 'layouts/header' %>
+    </header><br>
+    <div id="center">
+      <div>
+        <div class="main">
+          <img src="/images/liblib5.jpg">
+        </div>
+      </div><br>
+      <%= yield %>
+    </div>
+  </body>
+</html>
