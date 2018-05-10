@@ -1,7 +1,7 @@
 class DrinksController < ApplicationController
   after_action :set_search
 
-  @@search = nil
+  @@search =  nil
 
   def index
     if params[:search].nil? || params[:search].empty?

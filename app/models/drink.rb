@@ -25,4 +25,6 @@ class Drink < ApplicationRecord
     JSON.parse(response)
   end
 
+
+
 end
