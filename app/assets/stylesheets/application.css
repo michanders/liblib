@@ -15,7 +15,7 @@
  */
 
 
-  header {
+   header {
     position: fixed;
   }
 
@@ -45,7 +45,7 @@
 
   #submit {
     border-bottom: 2px dotted lightgrey;
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
   }
 
@@ -69,9 +69,9 @@
   }
 
   img {
-  max-width: 400px;
+  max-width: 300px;
   max-height: 200px;
-  border-radius: 25px;
+  border-radius: 10px;
   }
 
   input#search {
