@@ -14,8 +14,7 @@
  *= require_self
  */
 
-
- @media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 2000px) {
   header {
     position: fixed;
   }
@@ -31,7 +30,7 @@
     max-width: 400px;
     max-height: 390px;
     margin: auto;
-    box-shadow: 10px 10px 10px lightgrey;
+    box-shadow: 0 0 20px #fe68fd;
     border-radius: 25px;
     overflow: scroll;
   }
@@ -64,7 +63,7 @@
     max-height: 400px;
     margin: auto;
     margin-top: 25px;
-    box-shadow: 10px 10px 10px lightgrey;
+    box-shadow: 0 0 10px #09d2fe;
     border-radius: 25px;
   }
 
@@ -171,7 +170,7 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+/*@media only screen and (max-width: 700px) {
   body {
     max-width: 700px;
     margin: auto;
@@ -258,3 +257,4 @@
     display: inline;
   }
 }
+*/
