@@ -21,7 +21,7 @@
   }
 
   body {
-    max-width: auto;
+    max-width: 700px;
     margin: auto;
     text-align: center;
     font-family: "Segoe UI";
@@ -173,8 +173,8 @@
 
 @media only screen and (max-width: 700px) {
   body {
-    max-width: auto;
-    margin: auto;
+    max-width: 700px;
+    margin: none;
     text-align: center;
     font-family: "Segoe UI";
   }
@@ -204,7 +204,7 @@
 
   #drinkshow {
     margin: auto;
-    width: 200px;
+    width: 400px;
     text-align: left;
   }
 
