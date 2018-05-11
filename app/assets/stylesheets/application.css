@@ -20,7 +20,8 @@
   }
 
   body {
-    max-width: 700px;
+    max-width: 500px;
+    max-height: 1080px;
     margin: auto;
     text-align: center;
     font-family: "Segoe UI";
