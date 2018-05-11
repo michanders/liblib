@@ -31,7 +31,7 @@
     max-width: 400px;
     max-height: 390px;
     margin: auto;
-    box-shadow: 5px 5px 10px #fe68fd;
+    box-shadow: 0 0 20px #fe68fd;
     border-radius: 25px;
     overflow: scroll;
   }
@@ -64,7 +64,7 @@
     max-height: 400px;
     margin: auto;
     margin-top: 25px;
-    box-shadow: 5px 5px 10px #09d2fe;
+    box-shadow: 0 0 20px #09d2fe;
     border-radius: 25px;
   }
 
