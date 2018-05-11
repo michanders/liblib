@@ -14,13 +14,14 @@
  *= require_self
  */
 
-@media only screen and (max-width: 2000px) {
+
   header {
     position: fixed;
   }
 
   body {
     max-width: 2000px;
+    min-width: 700px;
     margin: auto;
     text-align: center;
     font-family: "Segoe UI";
@@ -168,7 +169,7 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-}
+
 
 /*@media only screen and (max-width: 700px) {
   body {
